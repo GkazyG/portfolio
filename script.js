@@ -180,4 +180,11 @@
 	document.querySelector('hamburger').addEventListener('click', () => {
 		document.querySelector('.nav-links').classList.toggle('show');
 	});
+	function toggleTheme() {
+    if (document.body.classList.contains("white"))
+        document.body.classList.remove("white");
+    else
+        document.body.classList.add("white");
+}
+// ---
 })(jQuery);
