@@ -232,29 +232,7 @@ nav {
         top: 5rem; /* Adjust the top position for mobile view */
     }
 }
-.about {
-    background-size: cover;
-    background-position: center;
-  }
-  
-  .about .about-me {
-    max-width: 600px; /* Adjust as needed */
-    text-align: center;
-    padding: 20px;
-  }
-  
-  .about .about-me p {
-    font-size: 18px;
-    line-height: 1.5;
-    color: #3b3a40;
-    margin: 0;
-  }
-  
-  @media (max-width: 768px) {
-    .about .section-title-wrap {
-      padding: 20px 10px;
-    }
-  }
+
 
   /* -------- */
   
@@ -329,13 +307,12 @@ body {
 }
 /* ------ */
 .card-container {
-    display: flex;
-    justify-content: space-around; /* Adjust as needed */
+    /* display: flex; */
+    
     background: linear-gradient(to bottom, #ffffff, #ffffff); /* Add your desired background gradient */
 }
   .card {
     width: 200px;
-    padding: 20px;
     border: 1px solid #ccc;
     border-radius: 8px;
     margin: 10px;
