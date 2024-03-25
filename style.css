@@ -57,6 +57,7 @@ a:hover {
     height: 100%;
     background-position: center;
     background-size: cover;
+    z-index: -5;
     
 }
 
@@ -175,6 +176,7 @@ nav {
     left: 0;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.9);
+    z-index: 1;
 }
   
 nav ul {
@@ -213,6 +215,47 @@ nav ul li a:hover {
     max-width: 30rem; /* Adjust width as needed */
     height: auto; /* Let the height adjust proportionally */
 }
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 150px;
+}
+
+.btn-submit {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #0056b3;
+}
+
 @media (max-width: 768px) {
     .profile-pic {
         top: 5rem; /* Adjust the top position for mobile view */

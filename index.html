@@ -13,13 +13,13 @@
 
   <nav>
     <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#portfolio">Portfolio</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li><a href="#HOME">HOME</a></li>
+      <li><a href="#PROJECTS">PROJECTS</a></li>
+      <li><a href="#ABOUT">ABOUT</a></li>
+      <li><a href="#CONTACT">CONTACT</a></li>
     </ul>
   </nav>
-  <div id="home">
+  <div id="HOME">
     <img src="images\profile.png" alt="" class="profile-pic">
 
     <div class="shadow-title parallax-top-shadow">GIHAN</div>
@@ -40,6 +40,37 @@
     </div>
   </div>
 
+ 
+<div class="add-gap"></div>
+
+<h2 id="PROJECTS" class="text-3xl font-bold text-center mb-8">PROJECTS</h2><br>
+  <!-- Card Section -->
+<div class="card-section section full-height flex justify-center items-center">
+  <div class="card-container flex flex-wrap md:flex-nowrap justify-center gap-8"> <!-- Adjust gap-8 to set the desired gap between cards -->
+    <div class="card m-2 p-4 border border-gray-300 rounded-lg shadow-md transition-transform duration-300 hover:scale-105 cursor-pointer w-64 pulse-animation">
+      
+        <img src="images\genedmate.png" alt="Card Image" class="mb-4 rounded-md w-full" style="width: auto; height: auto;">
+        <h2 class="text-xl font-semibold">GenEd Mate</h2><br>
+        <p>A Generative AI-powered mobile application designed for high school and college students. It provides a personalized learning experience by generating educational content based on the user's preferences.</p>
+    </div>
+    <div class="card m-2 p-4 border border-gray-300 rounded-lg shadow-md transition-transform duration-300 hover:scale-105 cursor-pointer w-64 pulse-animation">
+      <img src="images\country-app.png" alt="Card Image" class="mb-4 rounded-md w-full" style="width: auto; height: auto;">
+      <h2 class="text-xl font-semibold">country guess App</h2><br>
+      <p>A country guessing game that offers 4 modes in game and it have advance levels.</p>
+    </div>
+    <div class="card m-2 p-4 border border-gray-300 rounded-lg shadow-md transition-transform duration-300 hover:scale-105 cursor-pointer w-64 pulse-animation">
+      <img src="images\camerra app.png" alt="Card Image" class="mb-4 rounded-md w-full" style="width: auto; height: auto;">
+        <h2 class="text-xl font-semibold">Plant Detection App</h2><br>
+        <p> im currently working on it.</p>
+    </div>
+  </div>
+</div>
+<!-- End Card Section -->
+ 
+<div class="add-gap"></div>
+ 
+<div class="add-gap"></div>
+
   <div class="work">
     <main>
       <div class="relative flex flex-col h-[100vh] items-center justify-center bg-white dark:bg-white transition-bg">
@@ -48,7 +79,7 @@
         </div>
 
         <!-- About Me Section -->
-        <div id="about" class="about section full-height flex justify-center items-center">
+        <div id="ABOUT" class="about section full-height flex justify-center items-center">
           <div class="about-me text-center w-full md:w-1/2  ">
             <h1 class="text-3xl font-bold mb-4">ABOUT ME</h1>
             <p class="text-lg">I have extensive experience in various fields such as development, teamwork, and project management, where I excel as an effective and motivating team leader. Additionally, I lead the IEEE Computer Society membership. Currently, I'm pursuing a BSc (Hons) degree in Computer Science at the University of Westminster in the UK.</p>
@@ -58,65 +89,35 @@
       </div>
     </main>
   </div>
-<div class="add-gap"></div>
-
-  <!-- Card Section -->
-  <div class="card-section section full-height flex justify-center items-center">
-    <div class="card-container flex flex-wrap md:flex-nowrap justify-center">
-      <div class="card m-2 p-4 border border-gray-300 rounded-lg shadow-md transition-transform duration-300 hover:scale-105 cursor-pointer w-64 pulse-animation " >
-        <img src="images\genedmate.png" alt="Card Image" class="mb-4 rounded-md w-full" style="width: auto; height: auto;">
-        <h2 class="text-xl font-semibold">GenEd Mate</h2><br>
-        <p>A Generative AI-powered mobile application designed for high school and college students. It provides a personalized learning experience by generating educational content based on the user's preferences.</p>
-      </div>
-      <div class="card m-2 p-4 border border-gray-300 rounded-lg shadow-md transition-transform duration-300 hover:scale-105 cursor-pointer w-64 pulse-animation">
-        <img src="images\country-app.png" alt="Card Image" class="mb-4 rounded-md w-full" style="width: auto; height: auto;">
-        <h2 class="text-xl font-semibold">Simple Camera App</h2>
-        <p> .</p>
-      </div>
-      <div class="card m-2 p-4 border border-gray-300 rounded-lg shadow-md transition-transform duration-300 hover:scale-105 cursor-pointer w-64 pulse-animation">
-        <img src="path_to_image" alt="Card Image" class="mb-4 rounded-md w-full" style="width: 200px; height: 150px;">
-        <h2 class="text-xl font-semibold">Card 3</h2>
-        <p>Description of Card 3</p>
-      </div>
-      
-    </div>
-  </div>
-  <!-- End Card Section -->
-
-
-
-  <div class="portfolio">
-    <div id="portfolio" class="portfolio section full-height flex justify-center items-center">
-      <div class="portfolio-wrap">
-        <div class="container">
-          <div class="row">
-            <div class="col-12 text-center parallax-fade-top">
-              <h1>PORTFOLIO</h1>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <form action="https://api.web3forms.com/submit" method="POST">
-
+  <h2 id="CONTACT" class="text-3xl font-bold text-center mb-8">Contact Me</h2>
+  <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
     <!-- Replace with your Access Key -->
     <input type="hidden" name="access_key" value="b6cda9b4-0387-478f-b717-5fa5c81b358a">
 
-    <!-- Form Inputs. Each input must have a name="" attribute -->
-    <input type="text" name="name" required>
-    <input type="email" name="email" required>
-    <textarea name="message" required></textarea>
+    <!-- Form Inputs with labels -->
+    <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+    </div>
+    <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+    </div>
 
     <!-- hCaptcha Spam Protection -->
-    <div class="h-captcha" data-captcha="true"></div>
+    <div class="form-group">
+        <div class="h-captcha" data-captcha="true"></div>
+    </div>
 
-    <button type="submit">Submit Form</button>
-
+    <button type="submit" class="btn-submit">Submit Form</button>
 </form>
 <!-- Required for hCaptcha -->
 <script src="https://web3forms.com/client/script.js" async defer></script>
+
   
 
 </body>
