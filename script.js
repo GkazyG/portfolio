@@ -186,5 +186,16 @@
     else
         document.body.classList.add("white");
 }
+$(document).ready(function() {
+    $('nav a').on('click', function(event) {
+      if (this.hash !== '') {
+        event.preventDefault();
+        const hash = this.hash;
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800); // Adjust the duration (in milliseconds) for slower or faster scroll
+      }
+    });
+  });
 // ---
 })(jQuery);

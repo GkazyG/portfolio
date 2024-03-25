@@ -256,6 +256,9 @@ textarea {
     background-color: #0056b3;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
 @media (max-width: 768px) {
     .profile-pic {
         top: 5rem; /* Adjust the top position for mobile view */
